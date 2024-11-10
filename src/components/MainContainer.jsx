@@ -29,7 +29,7 @@ const MainContainer = () => {
             </motion.div>
           </div>
         </div>
-        <div>
+        <div className="w-full">
           <RowContainer flag={true} />
         </div>
       </section>
