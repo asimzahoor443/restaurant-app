@@ -4,7 +4,6 @@ import { CreateContainer, Header, MainContainer } from './components';
 import { AnimatePresence } from 'framer-motion';
 import { useStateValue } from './context/StateProvider';
 import { getAllFoodItems } from './utils/firebaseFunctions';
-import { type } from '@testing-library/user-event/dist/type';
 import { actionType } from './context/reducer';
 
 const App = () => {
