@@ -12,7 +12,7 @@ const reducer = (state, action) => {
         ...state,
         user: action.user,
       };
-    case actionType.SET_USER:
+    case actionType.SET_FOOD_ITEMS:
       return {
         ...state,
         foodItems: action.foodItems,
