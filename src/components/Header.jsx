@@ -8,7 +8,6 @@ import Avatar from '../img/avatar.png';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../context/StateProvider';
 import { actionType } from '../context/reducer';
-import { type } from '@testing-library/user-event/dist/type';
 
 const Header = () => {
   const firebaseAuth = getAuth(app);
@@ -63,7 +62,7 @@ const Header = () => {
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 200 }}
-            className="flex items-center gap-8"
+            className="flex items-center gap-24"
           >
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Home
